@@ -40,11 +40,11 @@ else
 fi
 
 if [ $CODE -eq 0 ]; then
-        echo -e "\e[0;32mFiles comply with codding standard\e[0m"
+        echo -e "\e[0;32mFiles comply with coding standard\e[0m"
 
 	exit 0
 else
-        echo -e "\e[01;31mFiles don't comply with codding standard\e[0m"
+        echo -e "\e[01;31mFiles don't comply with coding standard\e[0m"
 
 	exit 1
 fi
