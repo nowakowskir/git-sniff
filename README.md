@@ -1,4 +1,3 @@
-# git-sniff
 ## Intro
 This script extends git with sniff command, which lets you link your code sniffer with git. It will trigger code sniffer for staged files by running simple ```git sniff``` command. 
 If batch mode is on, code sniffer will be executed before each commit preventing committing files that don't comply with coding standards.
@@ -6,8 +5,7 @@ If batch mode is on, code sniffer will be executed before each commit preventing
 ### Move git-sniff script to system executable directory
 ```mv git-sniff.sh /usr/bin/git-sniff && chmod +x /usr/bin/git-sniff```
 ### Copy pre-commit hook
-Copy the content of ```pre-commit.sh``` to ```/path/git-repository/.git/hooks/pre-commit```. Run ```[ -x /path/git-repository/.git/hooks/pre-commit ] || chmod +x 
-/path/git-repository/.git/hooks/pre-commit``` to make sure ```/path/git-repository/.git/hooks/pre-commit``` is executable.
+Copy the content of ```pre-commit.sh``` to ```/path/git-repository/.git/hooks/pre-commit```. Run ```[ -x /path/git-repository/.git/hooks/pre-commit ] || chmod +x /path/git-repository/.git/hooks/pre-commit``` to make sure ```/path/git-repository/.git/hooks/pre-commit``` is executable.
 ## Usage
 ```git sniff```
 ## Configuration
