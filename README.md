@@ -24,7 +24,7 @@ Path or name of sniffer executable file.
 
 ### Parameters to pass to sniffer command
 
-You can set additional parameters that will be pass to sniffer command.
+You can set additional parameters that will be passed to sniffer command.
 
 ```git config --add sniff.params <value>```
 
