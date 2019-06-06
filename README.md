@@ -8,7 +8,7 @@
 
 ### Copy pre-commit hook
 
-Copy the content of ```pre-commit.sh``` to ```/path/git-repository/.git/hooks/pre-commit```. Make sure ```/path/git-repository/.git/hooks/pre-commit``` is executable. If not run ```chmod +x /path/git-repository/.git/hooks/pre-commit```.
+Copy the content of ```pre-commit.sh``` to ```/path/git-repository/.git/hooks/pre-commit```. Run ```[ -x .git/hooks/pre-commit ] || chmod +x .git/hooks/pre-commit``` to make sure ```/path/git-repository/.git/hooks/pre-commit``` is executable.
 
 ## Usage
 
