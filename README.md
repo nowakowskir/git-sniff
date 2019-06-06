@@ -1,5 +1,11 @@
 # git-sniff
 
+## Intro
+
+This script extends git with sniff command, which lets you link your code sniffer with git. It will trigger code sniffer for staged files by running simple ```git sniff``` command.
+
+If batch mode is on, code sniffer will be executed before each commit preventing committing files that don't comply coding standards.
+
 ## Installation
 
 ### Move git-sniff script to system executable directory
