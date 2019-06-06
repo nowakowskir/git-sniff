@@ -36,6 +36,6 @@ Sniffer will be executed for all files if value is set to ```1```, otherwise sni
 
 ### Execute sniffer on commit
 
-Sniffer will be executed on each commit if value is set to ```1```. Commit won't be perfomed if files don't comply with coding standards.
+Sniffer will be executed on each commit if value is set to ```1```. Commit won't be performed if files don't comply with coding standards.
 
 ```git config --add sniff.oncommit <value>```
