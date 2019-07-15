@@ -24,11 +24,15 @@ By default you can sniff your staged files by running:
 
 ### Sniffer executable file
 
-Path or name of sniffer executable file. ```git config --add sniff.cmd <value>```
+Path or name of sniffer executable file.
+
+```git config --add sniff.cmd <value>```
 
 ### Sniffer command's parameters
 
-You can set additional parameters that will be passed to sniffer command. ```git config --add sniff.params <value>```
+You can set additional parameters that will be passed to sniffer command.
+
+```git config --add sniff.params <value>```
 
 ### Batch mode
 
