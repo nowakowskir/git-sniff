@@ -51,6 +51,6 @@ Sniffer will be executed on each commit if value is set to ```1```. Commit won't
 Here is an example of linking PHP Code Sniffer with git.
 
 ```
-git config --add sniff.cmd /path/to/phpcs
+git config --add sniff.cmd phpcs
 git config --add sniff.params "--standard=$(git rev-parse --show-toplevel)/phpcs.xml --colors"
 ```
