@@ -52,5 +52,5 @@ Here is an example of linking PHP Code Sniffer with git.
 
 ```
 git config --add sniff.cmd /path/to/phpcs
-git config --add sniff.params "--standard=$(git rev-parse --show-toplevel)/phpcs.xml"
+git config --add sniff.params "--standard=$(git rev-parse --show-toplevel)/phpcs.xml --colors"
 ```
